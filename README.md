@@ -23,6 +23,7 @@ class TestConfigHolder implements ConfigureHolder {
 #### @Property
 .propertiesにて記述されている、key値の対応付けをします。
 ```java
+@Configuration(resource = "resource/dummy.properties")
 class TestConfigHolder implements ConfigureHolder {
     @Property(name = "name")
     private String name = null;
