@@ -13,7 +13,7 @@ ConfigureHolder実装クラス及びそのフィールドにアノテーショ�
 ConfigureHolder実装クラスへ指定します。<br>
 設定値は.propertiesファイルに記述される想定の実装であり、'resource'パラメタへ該当ファイルパスを指定します。<br>
 
-```java:使用例
+```java
 @Configuration(resource = "resource/dummy.properties")
 class TestConfigHolder implements ConfigureHolder {
 
